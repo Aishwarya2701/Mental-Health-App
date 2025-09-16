@@ -1,0 +1,89 @@
+{
+  "model_metadata": {
+    "algorithm": "Naive Bayes + TF-IDF",
+    "accuracy": 89.2,
+    "precision": 87.5,
+    "recall": 91.3,
+    "f1_score": 89.4,
+    "training_date": "2024-01-15",
+    "validation_method": "5-fold cross-validation",
+    "feature_extraction": "TF-IDF with n-grams (1,2)",
+    "languages_supported": ["English", "Hindi"]
+  },
+  "feature_weights": {
+    "positive_features": {
+      "happy": 0.85,
+      "good": 0.72,
+      "better": 0.78,
+      "grateful": 0.82,
+      "peace": 0.79,
+      "meditation": 0.75,
+      "therapy": 0.73,
+      "support": 0.77,
+      "खुश": 0.84,
+      "अच्छा": 0.71,
+      "शांति": 0.80,
+      "सहायता": 0.76
+    },
+    "negative_features": {
+      "sad": 0.83,
+      "depressed": 0.89,
+      "anxious": 0.86,
+      "overwhelmed": 0.81,
+      "hopeless": 0.92,
+      "panic": 0.88,
+      "stressed": 0.79,
+      "उदास": 0.84,
+      "चिंतित": 0.87,
+      "परेशान": 0.82,
+      "निराश": 0.91
+    },
+    "crisis_features": {
+      "suicide": 0.98,
+      "kill myself": 0.97,
+      "end it all": 0.95,
+      "self-harm": 0.94,
+      "आत्महत्या": 0.98,
+      "मौत": 0.93
+    }
+  },
+  "category_classification": {
+    "anxiety": {
+      "keywords": ["anxious", "worried", "panic", "nervous", "scared", "चिंतित", "डरा", "घबराहट"],
+      "confidence_threshold": 0.7
+    },
+    "depression": {
+      "keywords": ["depressed", "sad", "hopeless", "empty", "worthless", "उदास", "निराश", "खाली"],
+      "confidence_threshold": 0.75
+    },
+    "stress": {
+      "keywords": ["stressed", "overwhelmed", "pressure", "burden", "exhausted", "तनाव", "दबाव", "थका"],
+      "confidence_threshold": 0.72
+    },
+    "wellbeing": {
+      "keywords": ["happy", "peaceful", "grateful", "meditation", "yoga", "खुश", "शांति", "योग"],
+      "confidence_threshold": 0.68
+    },
+    "support": {
+      "keywords": ["therapy", "counseling", "help", "support", "friend", "family", "सहायता", "मदद", "परिवार"],
+      "confidence_threshold": 0.70
+    }
+  },
+  "preprocessing_steps": [
+    "Text normalization (lowercase)",
+    "Punctuation removal",
+    "Tokenization",
+    "Stop word removal (language-specific)",
+    "Stemming/Lemmatization",
+    "N-gram extraction (1-2 grams)",
+    "TF-IDF vectorization",
+    "Feature selection (top 5000 features)"
+  ],
+  "validation_results": {
+    "fold_1": {"accuracy": 88.5, "precision": 86.2, "recall": 90.8},
+    "fold_2": {"accuracy": 89.8, "precision": 88.1, "recall": 91.5},
+    "fold_3": {"accuracy": 90.1, "precision": 87.9, "recall": 92.1},
+    "fold_4": {"accuracy": 88.9, "precision": 87.2, "recall": 90.9},
+    "fold_5": {"accuracy": 89.7, "precision": 88.3, "recall": 91.8}
+  }
+}

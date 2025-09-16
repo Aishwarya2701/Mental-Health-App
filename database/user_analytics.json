@@ -1,0 +1,58 @@
+{
+  "usage_statistics": {
+    "total_analyses": 15847,
+    "unique_users": 3421,
+    "languages_used": {
+      "english": 11234,
+      "hindi": 4613
+    },
+    "sentiment_distribution": {
+      "positive": 6847,
+      "negative": 7234,
+      "neutral": 1766
+    },
+    "category_distribution": {
+      "anxiety": 4521,
+      "depression": 3876,
+      "stress": 4234,
+      "wellbeing": 2156,
+      "support": 1060
+    },
+    "risk_level_distribution": {
+      "low": 8234,
+      "moderate": 5432,
+      "high": 1876,
+      "crisis": 305
+    },
+    "crisis_interventions": 305,
+    "successful_referrals": 287
+  },
+  "user_feedback": {
+    "average_rating": 4.7,
+    "total_ratings": 2156,
+    "feedback_categories": {
+      "accuracy": 4.6,
+      "helpfulness": 4.8,
+      "user_interface": 4.5,
+      "response_time": 4.9,
+      "cultural_sensitivity": 4.7
+    },
+    "improvement_suggestions": [
+      "Add more regional languages",
+      "Include voice input feature",
+      "Expand crisis resources",
+      "Add professional therapist connections",
+      "Include mood tracking over time"
+    ]
+  },
+  "performance_metrics": {
+    "average_response_time": "1.2 seconds",
+    "uptime": "99.8%",
+    "error_rate": "0.2%",
+    "user_retention": {
+      "daily": "23%",
+      "weekly": "45%",
+      "monthly": "67%"
+    }
+  }
+}

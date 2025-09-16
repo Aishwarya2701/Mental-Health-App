@@ -1,0 +1,44 @@
+{
+  "positive_keywords": {
+    "english": [
+      "happy", "joy", "love", "peace", "calm", "grateful", "blessed", "hopeful", "confident", "strong",
+      "better", "good", "great", "amazing", "wonderful", "beautiful", "positive", "optimistic",
+      "healing", "recovery", "progress", "growth", "support", "help", "care", "comfort", "relief",
+      "meditation", "therapy", "exercise", "yoga", "mindfulness", "breathing", "relaxation",
+      "proud", "accomplished", "successful", "motivated", "inspired", "energetic", "vibrant",
+      "centered", "balanced", "serene", "tranquil", "content", "satisfied", "fulfilled"
+    ],
+    "hindi": [
+      "खुश", "खुशी", "प्रेम", "शांति", "आराम", "कृतज्ञ", "आशा", "विश्वास", "मजबूत", "बेहतर",
+      "अच्छा", "सुंदर", "सकारात्मक", "उम्मीद", "चंगाई", "प्रगति", "सहायता", "देखभाल", "आराम",
+      "ध्यान", "योग", "व्यायाम", "श्वास", "विश्राम", "समर्थन", "मदद", "सुकून", "शक्ति",
+      "गर्व", "संतुष्ट", "प्रेरित", "ऊर्जावान", "संतुलित", "शांत", "प्रसन्न"
+    ]
+  },
+  "negative_keywords": {
+    "english": [
+      "sad", "depressed", "anxious", "worried", "scared", "afraid", "panic", "stress", "overwhelmed",
+      "hopeless", "helpless", "lonely", "isolated", "empty", "numb", "tired", "exhausted", "pain",
+      "hurt", "suffering", "crisis", "suicidal", "self-harm", "cutting", "death", "dying", "end",
+      "terrible", "awful", "horrible", "worst", "hate", "angry", "rage", "frustrated", "confused",
+      "burden", "worthless", "useless", "failure", "broken", "damaged", "lost", "trapped"
+    ],
+    "hindi": [
+      "दुखी", "उदास", "चिंतित", "डरा", "भयभीत", "घबराहट", "तनाव", "परेशान", "निराश",
+      "असहाय", "अकेला", "खाली", "थका", "दर्द", "पीड़ा", "संकट", "आत्महत्या", "मौत",
+      "भयानक", "बुरा", "गुस्सा", "क्रोध", "निराशा", "भ्रम", "परेशानी", "बोझ",
+      "बेकार", "असफल", "टूटा", "खोया", "फंसा", "नुकसान"
+    ]
+  },
+  "crisis_keywords": {
+    "english": [
+      "suicide", "kill myself", "end it all", "self-harm", "cut myself", "hurt myself",
+      "death", "die", "dying", "ending it", "can't go on", "want to die",
+      "no point living", "better off dead", "harm myself", "kill me"
+    ],
+    "hindi": [
+      "आत्महत्या", "खुद को मारना", "सब कुछ खत्म", "खुद को नुकसान", "मौत",
+      "मरना", "जीने का कोई मतलब नहीं", "मर जाना बेहतर", "खुद को हानि"
+    ]
+  }
+}

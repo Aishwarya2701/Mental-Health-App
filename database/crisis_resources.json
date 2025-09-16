@@ -1,0 +1,65 @@
+{
+  "crisis_hotlines": {
+    "united_states": [
+      {
+        "name": "National Suicide Prevention Lifeline",
+        "phone": "988",
+        "description": "24/7 crisis support and suicide prevention",
+        "website": "https://suicidepreventionlifeline.org",
+        "text_option": "Text HOME to 741741"
+      },
+      {
+        "name": "Crisis Text Line",
+        "phone": "Text HOME to 741741",
+        "description": "24/7 text-based crisis support",
+        "website": "https://crisistextline.org"
+      },
+      {
+        "name": "SAMHSA National Helpline",
+        "phone": "1-800-662-4357",
+        "description": "Mental health and substance abuse support",
+        "website": "https://samhsa.gov"
+      }
+    ],
+    "india": [
+      {
+        "name": "आत्महत्या रोकथाम हेल्पलाइन",
+        "phone": "91-9152987821",
+        "description": "24/7 संकट सहायता और आत्महत्या रोकथाम",
+        "organization": "आसरा"
+      },
+      {
+        "name": "मानसिक स्वास्थ्य हेल्पलाइन",
+        "phone": "1800-599-0019",
+        "description": "मानसिक स्वास्थ्य सहायता और परामर्श",
+        "organization": "वंदना फाउंडेशन"
+      },
+      {
+        "name": "किरण हेल्पलाइन",
+        "phone": "1800-599-0019",
+        "description": "मानसिक स्वास्थ्य सहायता सेवा",
+        "organization": "स्वास्थ्य मंत्रालय"
+      }
+    ],
+    "international": [
+      {
+        "country": "UK",
+        "name": "Samaritans",
+        "phone": "116 123",
+        "description": "Free 24/7 emotional support"
+      },
+      {
+        "country": "Canada",
+        "name": "Talk Suicide Canada",
+        "phone": "1-833-456-4566",
+        "description": "24/7 bilingual crisis support"
+      },
+      {
+        "country": "Australia",
+        "name": "Lifeline",
+        "phone": "13 11 14",
+        "description": "24/7 crisis support and suicide prevention"
+      }
+    ]
+  }
+}

@@ -1,0 +1,514 @@
+{
+  "metadata": {
+    "dataset_name": "Mental Health Sentiment Analysis Dataset",
+    "version": "1.0",
+    "created_date": "2024-01-15",
+    "total_entries": 50,
+    "languages": ["English", "Hindi"],
+    "categories": ["anxiety", "depression", "stress", "wellbeing", "support"],
+    "severity_scale": "1-5 (1=mild, 5=severe)",
+    "description": "Comprehensive multilingual dataset for mental health sentiment analysis and risk assessment"
+  },
+  "entries": [
+    {
+      "id": 1,
+      "text": "I feel overwhelmed with work and can't seem to catch a break. Everything feels too much right now.",
+      "sentiment": "negative",
+      "category": "stress",
+      "severity": 4,
+      "language": "en",
+      "keywords": ["overwhelmed", "work", "too much"],
+      "risk_level": "moderate"
+    },
+    {
+      "id": 2,
+      "text": "Today was a good day. I managed to complete my tasks and even had time for a walk in the park.",
+      "sentiment": "positive",
+      "category": "wellbeing",
+      "severity": 1,
+      "language": "en",
+      "keywords": ["good day", "complete", "walk", "park"],
+      "risk_level": "low"
+    },
+    {
+      "id": 3,
+      "text": "मैं बहुत परेशान हूं और समझ नहीं आ रहा कि क्या करूं। लगता है जैसे कोई रास्ता नहीं है।",
+      "sentiment": "negative",
+      "category": "anxiety",
+      "severity": 5,
+      "language": "hi",
+      "keywords": ["परेशान", "समझ नहीं आ रहा", "कोई रास्ता नहीं"],
+      "risk_level": "high"
+    },
+    {
+      "id": 4,
+      "text": "I've been feeling really anxious about the future. My heart races whenever I think about tomorrow.",
+      "sentiment": "negative",
+      "category": "anxiety",
+      "severity": 4,
+      "language": "en",
+      "keywords": ["anxious", "future", "heart races", "tomorrow"],
+      "risk_level": "moderate"
+    },
+    {
+      "id": 5,
+      "text": "Meditation helped me feel centered today. I'm grateful for small moments of peace.",
+      "sentiment": "positive",
+      "category": "wellbeing",
+      "severity": 1,
+      "language": "en",
+      "keywords": ["meditation", "centered", "grateful", "peace"],
+      "risk_level": "low"
+    },
+    {
+      "id": 6,
+      "text": "आज मैंने योग किया और बहुत अच्छा लगा। मन शांत हो गया।",
+      "sentiment": "positive",
+      "category": "wellbeing",
+      "severity": 1,
+      "language": "hi",
+      "keywords": ["योग", "अच्छा लगा", "मन शांत"],
+      "risk_level": "low"
+    },
+    {
+      "id": 7,
+      "text": "I can't get out of bed. Everything feels pointless and I have no energy for anything.",
+      "sentiment": "negative",
+      "category": "depression",
+      "severity": 5,
+      "language": "en",
+      "keywords": ["can't get out of bed", "pointless", "no energy"],
+      "risk_level": "high"
+    },
+    {
+      "id": 8,
+      "text": "Talking to my friend really helped. Sometimes we just need someone to listen.",
+      "sentiment": "positive",
+      "category": "support",
+      "severity": 1,
+      "language": "en",
+      "keywords": ["talking", "friend", "helped", "listen"],
+      "risk_level": "low"
+    },
+    {
+      "id": 9,
+      "text": "मुझे लगता है कि मैं अकेला हूं और कोई मुझे समझता नहीं है।",
+      "sentiment": "negative",
+      "category": "depression",
+      "severity": 4,
+      "language": "hi",
+      "keywords": ["अकेला", "कोई समझता नहीं"],
+      "risk_level": "moderate"
+    },
+    {
+      "id": 10,
+      "text": "I'm learning to be kinder to myself. Progress isn't always linear, and that's okay.",
+      "sentiment": "positive",
+      "category": "wellbeing",
+      "severity": 2,
+      "language": "en",
+      "keywords": ["kinder to myself", "progress", "okay"],
+      "risk_level": "low"
+    },
+    {
+      "id": 11,
+      "text": "The panic attacks are getting worse. I feel like I'm losing control of my life.",
+      "sentiment": "negative",
+      "category": "anxiety",
+      "severity": 5,
+      "language": "en",
+      "keywords": ["panic attacks", "worse", "losing control"],
+      "risk_level": "crisis"
+    },
+    {
+      "id": 12,
+      "text": "आज परिवार के साथ समय बिताया। खुशी मिली और मन हल्का हो गया।",
+      "sentiment": "positive",
+      "category": "support",
+      "severity": 1,
+      "language": "hi",
+      "keywords": ["परिवार", "खुशी", "मन हल्का"],
+      "risk_level": "low"
+    },
+    {
+      "id": 13,
+      "text": "Work stress is affecting my sleep. I lie awake worrying about deadlines and meetings.",
+      "sentiment": "negative",
+      "category": "stress",
+      "severity": 3,
+      "language": "en",
+      "keywords": ["work stress", "sleep", "worrying", "deadlines"],
+      "risk_level": "moderate"
+    },
+    {
+      "id": 14,
+      "text": "I started journaling and it's helping me process my emotions better.",
+      "sentiment": "positive",
+      "category": "wellbeing",
+      "severity": 2,
+      "language": "en",
+      "keywords": ["journaling", "helping", "process emotions"],
+      "risk_level": "low"
+    },
+    {
+      "id": 15,
+      "text": "मैं बहुत डरा हुआ हूं। हर छोटी बात में घबराहट होती है।",
+      "sentiment": "negative",
+      "category": "anxiety",
+      "severity": 4,
+      "language": "hi",
+      "keywords": ["डरा हुआ", "घबराहट"],
+      "risk_level": "moderate"
+    },
+    {
+      "id": 16,
+      "text": "Therapy sessions are helping me understand my patterns and triggers better.",
+      "sentiment": "positive",
+      "category": "support",
+      "severity": 2,
+      "language": "en",
+      "keywords": ["therapy", "understand", "patterns", "triggers"],
+      "risk_level": "low"
+    },
+    {
+      "id": 17,
+      "text": "I feel empty inside, like nothing matters anymore. The sadness is overwhelming.",
+      "sentiment": "negative",
+      "category": "depression",
+      "severity": 5,
+      "language": "en",
+      "keywords": ["empty", "nothing matters", "overwhelming sadness"],
+      "risk_level": "high"
+    },
+    {
+      "id": 18,
+      "text": "आज मैंने अपने दोस्त से बात की। उसकी सलाह से मन को शांति मिली।",
+      "sentiment": "positive",
+      "category": "support",
+      "severity": 1,
+      "language": "hi",
+      "keywords": ["दोस्त", "सलाह", "शांति"],
+      "risk_level": "low"
+    },
+    {
+      "id": 19,
+      "text": "The breathing exercises are actually working. I feel more in control during stressful moments.",
+      "sentiment": "positive",
+      "category": "wellbeing",
+      "severity": 2,
+      "language": "en",
+      "keywords": ["breathing exercises", "working", "control"],
+      "risk_level": "low"
+    },
+    {
+      "id": 20,
+      "text": "मुझे नींद नहीं आती। रात भर चिंता में जागता रहता हूं।",
+      "sentiment": "negative",
+      "category": "stress",
+      "severity": 4,
+      "language": "hi",
+      "keywords": ["नींद नहीं आती", "चिंता", "जागता रहता"],
+      "risk_level": "moderate"
+    },
+    {
+      "id": 21,
+      "text": "I sometimes think about ending it all. Life feels like too much of a burden.",
+      "sentiment": "negative",
+      "category": "depression",
+      "severity": 5,
+      "language": "en",
+      "keywords": ["ending it all", "burden", "too much"],
+      "risk_level": "crisis"
+    },
+    {
+      "id": 22,
+      "text": "Exercise has become my therapy. Running helps clear my mind completely.",
+      "sentiment": "positive",
+      "category": "wellbeing",
+      "severity": 1,
+      "language": "en",
+      "keywords": ["exercise", "therapy", "running", "clear mind"],
+      "risk_level": "low"
+    },
+    {
+      "id": 23,
+      "text": "मैं अपने आप को नुकसान पहुंचाने के बारे में सोचता हूं।",
+      "sentiment": "negative",
+      "category": "depression",
+      "severity": 5,
+      "language": "hi",
+      "keywords": ["नुकसान पहुंचाने", "सोचता हूं"],
+      "risk_level": "crisis"
+    },
+    {
+      "id": 24,
+      "text": "My anxiety makes it hard to leave the house. Social situations feel impossible.",
+      "sentiment": "negative",
+      "category": "anxiety",
+      "severity": 4,
+      "language": "en",
+      "keywords": ["anxiety", "hard to leave", "social situations", "impossible"],
+      "risk_level": "moderate"
+    },
+    {
+      "id": 25,
+      "text": "I'm proud of myself for seeking help. It takes courage to admit you need support.",
+      "sentiment": "positive",
+      "category": "support",
+      "severity": 2,
+      "language": "en",
+      "keywords": ["proud", "seeking help", "courage", "support"],
+      "risk_level": "low"
+    },
+    {
+      "id": 26,
+      "text": "काम का बोझ इतना ज्यादा है कि सांस लेना भी मुश्किल हो रहा है।",
+      "sentiment": "negative",
+      "category": "stress",
+      "severity": 4,
+      "language": "hi",
+      "keywords": ["काम का बोझ", "सांस लेना मुश्किल"],
+      "risk_level": "moderate"
+    },
+    {
+      "id": 27,
+      "text": "Mindfulness meditation has changed my relationship with my thoughts.",
+      "sentiment": "positive",
+      "category": "wellbeing",
+      "severity": 1,
+      "language": "en",
+      "keywords": ["mindfulness", "meditation", "changed", "thoughts"],
+      "risk_level": "low"
+    },
+    {
+      "id": 28,
+      "text": "I wake up every morning with dread. Getting through the day feels like climbing a mountain.",
+      "sentiment": "negative",
+      "category": "depression",
+      "severity": 4,
+      "language": "en",
+      "keywords": ["wake up with dread", "climbing mountain"],
+      "risk_level": "moderate"
+    },
+    {
+      "id": 29,
+      "text": "मेरे परिवार का साथ मुझे मजबूत बनाता है। उनका प्यार मेरी शक्ति है।",
+      "sentiment": "positive",
+      "category": "support",
+      "severity": 1,
+      "language": "hi",
+      "keywords": ["परिवार का साथ", "मजबूत", "प्यार", "शक्ति"],
+      "risk_level": "low"
+    },
+    {
+      "id": 30,
+      "text": "The constant worry is exhausting. I can't turn off my racing thoughts.",
+      "sentiment": "negative",
+      "category": "anxiety",
+      "severity": 4,
+      "language": "en",
+      "keywords": ["constant worry", "exhausting", "racing thoughts"],
+      "risk_level": "moderate"
+    },
+    {
+      "id": 31,
+      "text": "Today I helped someone else, and it reminded me that I have value and purpose.",
+      "sentiment": "positive",
+      "category": "wellbeing",
+      "severity": 2,
+      "language": "en",
+      "keywords": ["helped someone", "value", "purpose"],
+      "risk_level": "low"
+    },
+    {
+      "id": 32,
+      "text": "मुझे लगता है कि मैं किसी काम का नहीं हूं। सब कुछ बेकार लगता है।",
+      "sentiment": "negative",
+      "category": "depression",
+      "severity": 4,
+      "language": "hi",
+      "keywords": ["किसी काम का नहीं", "बेकार"],
+      "risk_level": "moderate"
+    },
+    {
+      "id": 33,
+      "text": "My therapist taught me grounding techniques that really work during panic attacks.",
+      "sentiment": "positive",
+      "category": "support",
+      "severity": 2,
+      "language": "en",
+      "keywords": ["therapist", "grounding techniques", "work", "panic attacks"],
+      "risk_level": "low"
+    },
+    {
+      "id": 34,
+      "text": "The pressure at work is making me physically sick. I can't eat or sleep properly.",
+      "sentiment": "negative",
+      "category": "stress",
+      "severity": 4,
+      "language": "en",
+      "keywords": ["pressure", "physically sick", "can't eat", "can't sleep"],
+      "risk_level": "moderate"
+    },
+    {
+      "id": 35,
+      "text": "आज मैंने प्रकृति में समय बिताया। पेड़-पौधे देखकर मन को सुकून मिला।",
+      "sentiment": "positive",
+      "category": "wellbeing",
+      "severity": 1,
+      "language": "hi",
+      "keywords": ["प्रकृति", "समय बिताया", "सुकून"],
+      "risk_level": "low"
+    },
+    {
+      "id": 36,
+      "text": "I feel like I'm drowning in my own thoughts. Everything seems hopeless.",
+      "sentiment": "negative",
+      "category": "depression",
+      "severity": 5,
+      "language": "en",
+      "keywords": ["drowning", "thoughts", "hopeless"],
+      "risk_level": "high"
+    },
+    {
+      "id": 37,
+      "text": "Group therapy showed me I'm not alone in this struggle. Others understand my pain.",
+      "sentiment": "positive",
+      "category": "support",
+      "severity": 2,
+      "language": "en",
+      "keywords": ["group therapy", "not alone", "understand", "pain"],
+      "risk_level": "low"
+    },
+    {
+      "id": 38,
+      "text": "हर छोटी बात पर गुस्सा आता है। मैं अपने आप को कंट्रोल नहीं कर पा रहा।",
+      "sentiment": "negative",
+      "category": "stress",
+      "severity": 3,
+      "language": "hi",
+      "keywords": ["गुस्सा", "कंट्रोल नहीं कर पा रहा"],
+      "risk_level": "moderate"
+    },
+    {
+      "id": 39,
+      "text": "Reading self-help books is giving me new perspectives on handling difficult emotions.",
+      "sentiment": "positive",
+      "category": "wellbeing",
+      "severity": 2,
+      "language": "en",
+      "keywords": ["self-help books", "perspectives", "handling emotions"],
+      "risk_level": "low"
+    },
+    {
+      "id": 40,
+      "text": "I'm scared of being judged if I tell people about my mental health struggles.",
+      "sentiment": "negative",
+      "category": "anxiety",
+      "severity": 3,
+      "language": "en",
+      "keywords": ["scared", "judged", "mental health struggles"],
+      "risk_level": "moderate"
+    },
+    {
+      "id": 41,
+      "text": "मैंने आज अपनी मां से अपनी परेशानी के बारे में बात की। उन्होंने समझा।",
+      "sentiment": "positive",
+      "category": "support",
+      "severity": 1,
+      "language": "hi",
+      "keywords": ["मां से बात", "परेशानी", "समझा"],
+      "risk_level": "low"
+    },
+    {
+      "id": 42,
+      "text": "The medication is helping, but I still have bad days. Recovery isn't linear.",
+      "sentiment": "neutral",
+      "category": "support",
+      "severity": 3,
+      "language": "en",
+      "keywords": ["medication", "helping", "bad days", "recovery"],
+      "risk_level": "moderate"
+    },
+    {
+      "id": 43,
+      "text": "I can't stop crying. The sadness feels like it will never end.",
+      "sentiment": "negative",
+      "category": "depression",
+      "severity": 4,
+      "language": "en",
+      "keywords": ["can't stop crying", "sadness", "never end"],
+      "risk_level": "moderate"
+    },
+    {
+      "id": 44,
+      "text": "योग और ध्यान से मुझे अपने मन को शांत करने में मदद मिली है।",
+      "sentiment": "positive",
+      "category": "wellbeing",
+      "severity": 1,
+      "language": "hi",
+      "keywords": ["योग", "ध्यान", "मन शांत", "मदद"],
+      "risk_level": "low"
+    },
+    {
+      "id": 45,
+      "text": "Social media makes my anxiety worse. Everyone else seems so happy and successful.",
+      "sentiment": "negative",
+      "category": "anxiety",
+      "severity": 3,
+      "language": "en",
+      "keywords": ["social media", "anxiety worse", "everyone else happy"],
+      "risk_level": "moderate"
+    },
+    {
+      "id": 46,
+      "text": "I'm grateful for my support system. Having people who care makes all the difference.",
+      "sentiment": "positive",
+      "category": "support",
+      "severity": 1,
+      "language": "en",
+      "keywords": ["grateful", "support system", "people care", "difference"],
+      "risk_level": "low"
+    },
+    {
+      "id": 47,
+      "text": "मुझे लगता है कि मैं अपने परिवार के लिए बोझ हूं।",
+      "sentiment": "negative",
+      "category": "depression",
+      "severity": 4,
+      "language": "hi",
+      "keywords": ["परिवार के लिए बोझ"],
+      "risk_level": "moderate"
+    },
+    {
+      "id": 48,
+      "text": "Art therapy is helping me express feelings I couldn't put into words.",
+      "sentiment": "positive",
+      "category": "wellbeing",
+      "severity": 2,
+      "language": "en",
+      "keywords": ["art therapy", "express feelings", "couldn't put into words"],
+      "risk_level": "low"
+    },
+    {
+      "id": 49,
+      "text": "The flashbacks are getting more frequent. I can't escape my past trauma.",
+      "sentiment": "negative",
+      "category": "anxiety",
+      "severity": 5,
+      "language": "en",
+      "keywords": ["flashbacks", "frequent", "past trauma"],
+      "risk_level": "high"
+    },
+    {
+      "id": 50,
+      "text": "आज मैंने एक छोटा सा लक्ष्य पूरा किया। छोटी जीत भी खुशी देती है।",
+      "sentiment": "positive",
+      "category": "wellbeing",
+      "severity": 1,
+      "language": "hi",
+      "keywords": ["लक्ष्य पूरा", "छोटी जीत", "खुशी"],
+      "risk_level": "low"
+    }
+  ]
+}
